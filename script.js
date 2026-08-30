@@ -299,7 +299,7 @@ const receitas = [
     nome: "Moqueca Baiana",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZtMP8XBncrMxdQ6Pxlwk_dO79mZJ-dVurz5LNQlAqvw&s=10",
     videoUrl: "https://www.youtube.com/embed/e_p3Rk8aO_Q",
     ingredientes: ["800g de postas de peixe", "200ml de leite de coco", "3 colheres de azeite de dendê", "Pimentões e cebola em rodelas", "Coentro"],
     instrucoes: [
@@ -314,7 +314,7 @@ const receitas = [
     nome: "Coxinha de Frango",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://guiadacozinha.com.br/wp-content/uploads/2018/08/coxinhadefrangocremosa.webp",
     videoUrl: "https://www.youtube.com/embed/K45p4mY9gU0",
     ingredientes: ["500ml de caldo de frango", "300g de farinha de trigo", "300g de frango temperado", "Requeijão firme", "Farinha de rosca"],
     instrucoes: [
