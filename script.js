@@ -40,7 +40,7 @@ const receitas = [
     nome: "Tiramisù Tradicional",
     tipo: "doce",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP9-mZgmVKSZf7g8PIbxe2RmC8Wc5JuzLycHSSC-uw-g&s=10",
     videoUrl: "https://www.youtube.com/embed/8wX2mY9sJ0c",
     ingredientes: ["500g de Mascarpone", "4 ovos (gemas e claras separadas)", "100g de açúcar", "200g de biscoito Champagne", "250ml de café forte frio", "Cacau em pó"],
     instrucoes: [
@@ -57,7 +57,7 @@ const receitas = [
     nome: "Risotto al Funghi",
     tipo: "salgado",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJKle5mnFmm8IbuBCM4IDdSOPL-M5M2BLaLtOv0qceiw&s=10",
     videoUrl: "https://www.youtube.com/embed/5K1N0pI9e10",
     ingredientes: ["300g de arroz Arbóreo", "200g de cogumelos frescos", "1 litro de caldo de legumes", "1/2 xícara de vinho branco seco", "100g de queijo parmesão", "3 colheres de sopa de manteiga", "1 cebola"],
     instrucoes: [
@@ -73,7 +73,7 @@ const receitas = [
     nome: "Cannoli Siciliano",
     tipo: "doce",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk2lKULAF3q3Nvw0v-6zDMS3eB7v2ao8QcKqnmCnwizw&s",
     videoUrl: "https://www.youtube.com/embed/X5w7s3k8g8k",
     ingredientes: ["Tubos de massa para cannoli", "500g de ricota fresca", "150g de açúcar impalpável", "80g de gotas de chocolate", "Pistache picado"],
     instrucoes: [
