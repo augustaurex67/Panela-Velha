@@ -305,4 +305,89 @@ const receitas = [
       "Modele no formato de coxinha, empane no ovo e farinha de rosca e frite em óleo quente."
     ]
   }
+  // Elementos da DOM
+const recipeGrid = document.getElementById('recipeGrid');
+const selectTipo = document.getElementById('tipo');
+const selectCultura = document.getElementById('cultura');
+const modal = document.getElementById('recipeModal');
+const closeBtn = document.getElementById('closeBtn');
+
+// Renderização dos cartões
+function renderizarReceitas() {
+  const tipoFiltro = selectTipo.value;
+  const culturaFiltro = selectCultura.value;
+
+  recipeGrid.innerHTML = '';
+
+  const receitasFiltradas = receitas.filter(receita => {
+    const atendeTipo = tipoFiltro === 'todos' || receita.tipo === tipoFiltro;
+    const atendeCultura = culturaFiltro === 'todas' || receita.cultura === culturaFiltro;
+    return atendeTipo && atendeCultura;
+  });
+
+  receitasFiltradas.forEach(receita => {
+    const card = document.createElement('div');
+    card.className = 'recipe-card';
+    card.onclick = () => abrirModal(receita);
+
+    const classeFonte = `cultura-${receita.cultura}`;
+
+    card.innerHTML = `
+      <div class="card-img-wrapper">
+        <img src="${receita.imagem}" alt="${receita.nome}">
+      </div>
+      <div class="card-info">
+        <h3 class="${classeFonte}">${receita.nome}</h3>
+        <div>
+          <span class="tag">${receita.tipo}</span>
+          <span class="tag">${receita.cultura}</span>
+        </div>
+      </div>
+    `;
+
+    recipeGrid.appendChild(card);
+  });
+}
+
+// Abrir Modal
+function abrirModal(receita) {
+  const modalTitle = document.getElementById('modalTitle');
+  modalTitle.innerText = receita.nome;
+  modalTitle.className = `cultura-${receita.cultura}`;
+
+  document.getElementById('modalTags').innerHTML = `
+    <span class="tag">${receita.tipo}</span>
+    <span class="tag">${receita.cultura}</span>
+  `;
+  document.getElementById('modalVideo').src = receita.videoUrl;
+
+  const listIngredientes = document.getElementById('modalIngredients');
+  listIngredientes.innerHTML = receita.ingredientes.map(ing => `<li>${ing}</li>`).join('');
+
+  const listInstrucoes = document.getElementById('modalInstructions');
+  listInstrucoes.innerHTML = receita.instrucoes.map(inst => `<li>${inst}</li>`).join('');
+
+  modal.style.display = 'flex';
+}
+
+// Fechar Modal
+closeBtn.onclick = fecharModal;
+
+function fecharModal() {
+  modal.style.display = 'none';
+  document.getElementById('modalVideo').src = '';
+}
+
+window.onclick = (event) => {
+  if (event.target === modal) {
+    fecharModal();
+  }
+};
+
+// Eventos dos seletores
+selectTipo.addEventListener('change', renderizarReceitas);
+selectCultura.addEventListener('change', renderizarReceitas);
+
+// Inicialização (FAZ AS RECEITAS APARECEREM)
+renderizarReceitas();
 ];
