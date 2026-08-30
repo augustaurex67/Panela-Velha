@@ -299,7 +299,7 @@ const receitas = [
     nome: "Moqueca Baiana",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZtMP8XBncrMxdQ6Pxlwk_dO79mZJ-dVurz5LNQlAqvw&s=10",
+    imagem: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
     videoUrl: "https://www.youtube.com/embed/e_p3Rk8aO_Q",
     ingredientes: ["800g de postas de peixe", "200ml de leite de coco", "3 colheres de azeite de dendê", "Pimentões e cebola em rodelas", "Coentro"],
     instrucoes: [
@@ -316,27 +316,7 @@ const receitas = [
     cultura: "brasileira",
     imagem: "https://guiadacozinha.com.br/wp-content/uploads/2018/08/coxinhadefrangocremosa.webp",
     videoUrl: "https://www.youtube.com/embed/K45p4mY9gU0",
-    ingredientes: ["Recheio:
-MANTEIGA - 1 COL. SOPA
-AZEITE - 1 FIO
-CEBOLA - 1 UNIDADE
-ALHO - 3 DENTES
-FRANGO DESFIADO - 500 GRAMAS
-SAL - 1 COL. CAFÉ
-PIMENTA DO REINO - 1 PITADA
-ALHO EM PÓ - 1 PITADA
-PÁPRICA DEFUMADA - 1 PITADA
-TOMATE - 1 UNIDADE
-MOLHO DE TOMATE - 1/2 XÍC. CHÁ
-CALDO DE FRANGO - 1/2 XÍC. CHÁ
-CHEIRO VERDE - Á GOSTO", "Massa:
-LEITE - 2 XÍC. CHÁ
-CALDO DE FRANGO - 1 XÍC. CHÁ
-SAL - 1 COL. CAFÉ
-CALDO DE GALINHA - 1 ENVELOPE
-FARINHA DE TRIGO - 3 XÍC. CHÁ", "Para Empanar:
-LEITE - 1 XÍC. CHÁ
-FARINHA DE PANKO - 1 XÍC. CHÁ"],
+    ingredientes: ["500ml de caldo de frango", "300g de farinha de trigo", "300g de frango temperado", "Requeijão firme", "Farinha de rosca"],
     instrucoes: [
       "Ferva o caldo e adicione a farinha de trigo de uma vez até soltar da panela.",
       "Sove a massa morna.",
