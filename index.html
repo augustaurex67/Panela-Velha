@@ -4,18 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panela-Velha | Receitas do Mundo</title>
+  
+  <!-- Fontes do Google para cada cultura -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Noto+Sans+JP:wght@700&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Banner com imagem de fundo de cozinha -->
   <header class="header">
-    <div class="logo">
-      <h1>🥘 Panela-Velha</h1>
-      <p>Sabores e culturas ao seu alcance</p>
+    <div class="header-overlay">
+      <div class="logo">
+        <h1>🥘 Panela-Velha</h1>
+        <p>Sabores e culturas ao seu alcance</p>
+      </div>
     </div>
   </header>
 
   <main class="container">
+    <!-- Barra de Filtros com elementos arredondados -->
     <section class="filters">
       <div class="filter-group">
         <label for="tipo">Tipo:</label>
@@ -38,10 +48,13 @@
       </div>
     </section>
 
+    <!-- Lista de Receitas -->
     <section class="recipe-grid" id="recipeGrid">
-      </section>
+      <!-- Cards gerados via JS -->
+    </section>
   </main>
 
+  <!-- Modal/Tela de Detalhes da Receita -->
   <div class="modal" id="recipeModal">
     <div class="modal-content">
       <span class="close-btn" id="closeBtn">&times;</span>
@@ -49,7 +62,7 @@
       <div class="tags" id="modalTags"></div>
       
       <div class="video-container">
-        <iframe id="modalVideo" src="" frameborder="0" allowfullscreen></iframe>
+        <iframe id="modalVideo" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div class="recipe-text">
