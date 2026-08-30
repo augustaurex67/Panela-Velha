@@ -173,7 +173,7 @@ const receitas = [
     nome: "Tacos de Carne Asada",
     tipo: "salgado",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCF6TGjOd2uBu4tSekGSQ1xGe56suav8ExdGFa1s7mtQ&s=10",
     videoUrl: "https://www.youtube.com/embed/8Q_9h6VKm9c",
     ingredientes: ["500g de carne bovina", "Tortilhas de milho", "1 cebola roxa", "Coentro fresco", "Suco de limão", "Sal e pimenta"],
     instrucoes: [
@@ -189,7 +189,7 @@ const receitas = [
     nome: "Churros com Doce de Leite",
     tipo: "doce",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1624371414361-e670ef4889d6?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDYtvbL6HkhOVoWRnPXL3dIvOGcGU4UeTtRjuVgU56w&s=10",
     videoUrl: "https://www.youtube.com/embed/E-1y7qE9p8k",
     ingredientes: ["250ml de água", "2 colheres de manteiga", "150g de farinha de trigo", "Açúcar e canela", "Doce de leite"],
     instrucoes: [
@@ -205,7 +205,7 @@ const receitas = [
     nome: "Guacamole com Totopos",
     tipo: "salgado",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVT_HGwxTgrwOK-_qFOUzHGrN_I8NK5bSzMcPBE7jrIw&s=10",
     videoUrl: "https://www.youtube.com/embed/5_9QO4jM_5A",
     ingredientes: ["2 abacates maduros", "1 tomate picado", "1/2 cebola roxa", "Suco de 1 limão", "Coentro e sal", "Totopos/Chips de milho"],
     instrucoes: [
@@ -220,7 +220,7 @@ const receitas = [
     nome: "Tres Leches Cake",
     tipo: "doce",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://www.allrecipes.com/thmb/3zjqR0J3EYdaRwZ97AQAZoUSC5o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7399-tres-leches-milk-cake-ddmfs-beauty-2x1-BG-25702-f42c94b10c914753aa4dcb413658b8bf.jpg",
     videoUrl: "https://www.youtube.com/embed/A8g2_A9o3Wk",
     ingredientes: ["1 pão de ló preparado", "1 lata de leite condensado", "1 lata de creme de leite", "200ml de leite integral", "Chantilly e canela"],
     instrucoes: [
