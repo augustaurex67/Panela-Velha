@@ -306,7 +306,7 @@ const receitas = [
   }
 ];
 
-// Mapeamento dos elementos da página
+// Elementos da DOM
 const recipeGrid = document.getElementById('recipeGrid');
 const selectTipo = document.getElementById('tipo');
 const selectCultura = document.getElementById('cultura');
@@ -350,7 +350,7 @@ function renderizarReceitas() {
   });
 }
 
-// Controle do Modal
+// Controle do Pop-up (Modal)
 function abrirModal(receita) {
   const modalTitle = document.getElementById('modalTitle');
   modalTitle.innerText = receita.nome;
@@ -384,9 +384,9 @@ window.onclick = (event) => {
   }
 };
 
-// Eventos de mudança nos filtros
+// Eventos dos seletores
 selectTipo.addEventListener('change', renderizarReceitas);
 selectCultura.addEventListener('change', renderizarReceitas);
 
-// Executa a renderização assim que o script carregar
+// Inicialização
 renderizarReceitas();
