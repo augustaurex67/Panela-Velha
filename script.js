@@ -316,7 +316,27 @@ const receitas = [
     cultura: "brasileira",
     imagem: "https://guiadacozinha.com.br/wp-content/uploads/2018/08/coxinhadefrangocremosa.webp",
     videoUrl: "https://www.youtube.com/embed/K45p4mY9gU0",
-    ingredientes: ["500ml de caldo de frango", "300g de farinha de trigo", "300g de frango temperado", "Requeijão firme", "Farinha de rosca"],
+    ingredientes: ["Recheio:
+MANTEIGA - 1 COL. SOPA
+AZEITE - 1 FIO
+CEBOLA - 1 UNIDADE
+ALHO - 3 DENTES
+FRANGO DESFIADO - 500 GRAMAS
+SAL - 1 COL. CAFÉ
+PIMENTA DO REINO - 1 PITADA
+ALHO EM PÓ - 1 PITADA
+PÁPRICA DEFUMADA - 1 PITADA
+TOMATE - 1 UNIDADE
+MOLHO DE TOMATE - 1/2 XÍC. CHÁ
+CALDO DE FRANGO - 1/2 XÍC. CHÁ
+CHEIRO VERDE - Á GOSTO", "Massa:
+LEITE - 2 XÍC. CHÁ
+CALDO DE FRANGO - 1 XÍC. CHÁ
+SAL - 1 COL. CAFÉ
+CALDO DE GALINHA - 1 ENVELOPE
+FARINHA DE TRIGO - 3 XÍC. CHÁ", "Para Empanar:
+LEITE - 1 XÍC. CHÁ
+FARINHA DE PANKO - 1 XÍC. CHÁ"],
     instrucoes: [
       "Ferva o caldo e adicione a farinha de trigo de uma vez até soltar da panela.",
       "Sove a massa morna.",
