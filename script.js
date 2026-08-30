@@ -254,7 +254,7 @@ const receitas = [
     nome: "Brigadeiro Gourmet",
     tipo: "doce",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXtdBH224RCgy6MNMU2umMLtYrNKIJaUEYXt3BzU_ppQ&s=10",
     videoUrl: "https://www.youtube.com/embed/4yA8Z9l8X_4",
     ingredientes: ["1 lata de leite condensado", "200g de creme de leite", "100g de chocolate em barra", "1 colher de manteiga", "Granulado"],
     instrucoes: [
@@ -269,7 +269,7 @@ const receitas = [
     nome: "Feijoada Completa",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLWlc5pUrt6kf_vpd7GZevfjtVhZgjg2tQoIDmOvAq_A&s=10",
     videoUrl: "https://www.youtube.com/embed/J7XwB2YnF9A",
     ingredientes: ["500g de feijão preto", "300g de carne seca", "2 linguiças calabresas", "150g de bacon", "Alho, cebola e louro"],
     instrucoes: [
@@ -284,7 +284,7 @@ const receitas = [
     nome: "Pudim de Leite Condensado",
     tipo: "doce",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpYoJwOF0tKYFMbVhEfGXCghJeU1TmS6ZlvGdscQzNow&s=10",
     videoUrl: "https://www.youtube.com/embed/Nn4x7T1E0_M",
     ingredientes: ["1 lata de leite condensado", "1 lata de leite", "3 ovos", "1 xícara de açúcar para calda"],
     instrucoes: [
@@ -299,7 +299,7 @@ const receitas = [
     nome: "Moqueca Baiana",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOiudrnsy0YkaP9wsr7DHgftDn1Mu3ySoIXr6jfh1MVw&s=10",
     videoUrl: "https://www.youtube.com/embed/e_p3Rk8aO_Q",
     ingredientes: ["800g de postas de peixe", "200ml de leite de coco", "3 colheres de azeite de dendê", "Pimentões e cebola em rodelas", "Coentro"],
     instrucoes: [
