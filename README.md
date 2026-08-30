@@ -1,2 +1,2 @@
 # Panela-Velha
-Um blog sobre culinária, tendo diversos pratos de diversas culturas e feitas com muito amor
+Bem-vindo ao Panela-Velha, seu passaporte para uma viagem gastronômica sem sair de casa! Aqui, a culinária é uma ponte entre culturas: compartilhamos receitas autênticas de vários cantos do mundo, histórias por trás dos pratos e o passo a passo para você replicar sabores internacionais na sua própria cozinha. Prepare as malas (e o apetite) e venha explorar o mundo através do paladar!
