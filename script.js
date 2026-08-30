@@ -107,7 +107,7 @@ const receitas = [
     nome: "Dorayaki",
     tipo: "doce",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IRU2lVsJHOu0rNSVaJpfdku6U7FlhJFeybTbe9oV5w&s=10",
     videoUrl: "https://www.youtube.com/embed/K8m_Z9d8k1w",
     ingredientes: ["2 ovos", "80g de açúcar", "1 colher de sopa de mel", "140g de farinha de trigo", "1 colher de chá de fermento", "Pasta de feijão doce (Anko)"],
     instrucoes: [
@@ -123,7 +123,7 @@ const receitas = [
     nome: "Chicken Katsu Curry",
     tipo: "salgado",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFUj5o-FEFAFKxSBSK2XGeBETpUPbE5EFESYkUbRgDw&s=10",
     videoUrl: "https://www.youtube.com/embed/L9w_8q7k2wE",
     ingredientes: ["2 filés de frango", "Farinha Panko e de trigo", "1 ovo", "1 tablete de Curry japonês", "1 batata e 1 cenoura", "Arroz japonês cozido"],
     instrucoes: [
@@ -139,7 +139,7 @@ const receitas = [
     nome: "Mochi de Morango",
     tipo: "doce",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1582293041079-7814c2f12063?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OdLKdp5i0wVRezcq6V6vjvpQYIDTwpGL-1TYMSo9qw&s=10",
     videoUrl: "https://www.youtube.com/embed/1pS3pG1iBFE",
     ingredientes: ["100g de farinha de arroz glutinoso", "180ml de água", "50g de açúcar", "6 morangos frescos", "Pasta de feijão doce", "Amido de milho"],
     instrucoes: [
