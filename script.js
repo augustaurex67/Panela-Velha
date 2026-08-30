@@ -5,7 +5,7 @@ const receitas = [
     nome: "Spaghetti alla Carbonara",
     tipo: "salgado",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/3AAdKl1UYZs",
     ingredientes: ["400g de Spaghetti", "150g de Guanciale ou Bacon", "4 gemas de ovo + 1 ovo inteiro", "100g de queijo Pecorino Romano ralado", "Pimenta-do-reino moída na hora"],
     instrucoes: [
@@ -23,7 +23,7 @@ const receitas = [
     nome: "Pizza Margherita",
     tipo: "salgado",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/Rk1K9sK9sX0",
     ingredientes: ["500g de farinha de trigo", "320ml de água morna", "7g de fermento biológico seco", "1 colher de chá de sal", "200g de molho de tomate", "200g de mussarela de búfala", "Folhas de manjericão e azeite"],
     instrucoes: [
@@ -40,7 +40,7 @@ const receitas = [
     nome: "Tiramisù Tradicional",
     tipo: "doce",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/8wX2mY9sJ0c",
     ingredientes: ["500g de Mascarpone", "4 ovos (gemas e claras separadas)", "100g de açúcar", "200g de biscoito Champagne", "250ml de café forte frio", "Cacau em pó"],
     instrucoes: [
@@ -57,7 +57,7 @@ const receitas = [
     nome: "Risotto al Funghi",
     tipo: "salgado",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/5K1N0pI9e10",
     ingredientes: ["300g de arroz Arbóreo", "200g de cogumelos frescos", "1 litro de caldo de legumes", "1/2 xícara de vinho branco seco", "100g de queijo parmesão", "3 colheres de sopa de manteiga", "1 cebola"],
     instrucoes: [
@@ -73,7 +73,7 @@ const receitas = [
     nome: "Cannoli Siciliano",
     tipo: "doce",
     cultura: "italiana",
-    imagem: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1623341214825-9f4f963727da?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/X5w7s3k8g8k",
     ingredientes: ["Tubos de massa para cannoli", "500g de ricota fresca", "150g de açúcar impalpável", "80g de gotas de chocolate", "Pistache picado"],
     instrucoes: [
@@ -91,7 +91,7 @@ const receitas = [
     nome: "Ramen Shoyu",
     tipo: "salgado",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/9wO4eL6tX10",
     ingredientes: ["2 porções de macarrão para Ramen", "800ml de caldo de frango", "3 colheres de sopa de Shoyu", "1 colher de sopa de óleo de gergelim", "2 ovos cozidos de gema mole", "Fatias de carne suína"],
     instrucoes: [
@@ -107,7 +107,7 @@ const receitas = [
     nome: "Dorayaki",
     tipo: "doce",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/K8m_Z9d8k1w",
     ingredientes: ["2 ovos", "80g de açúcar", "1 colher de sopa de mel", "140g de farinha de trigo", "1 colher de chá de fermento", "Pasta de feijão doce (Anko)"],
     instrucoes: [
@@ -123,7 +123,7 @@ const receitas = [
     nome: "Chicken Katsu Curry",
     tipo: "salgado",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/L9w_8q7k2wE",
     ingredientes: ["2 filés de frango", "Farinha Panko e de trigo", "1 ovo", "1 tablete de Curry japonês", "1 batata e 1 cenoura", "Arroz japonês cozido"],
     instrucoes: [
@@ -139,7 +139,7 @@ const receitas = [
     nome: "Mochi de Morango",
     tipo: "doce",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1582293041079-7814c2f12063?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1617305855058-336d24456869?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/1pS3pG1iBFE",
     ingredientes: ["100g de farinha de arroz glutinoso", "180ml de água", "50g de açúcar", "6 morangos frescos", "Pasta de feijão doce", "Amido de milho"],
     instrucoes: [
@@ -155,7 +155,7 @@ const receitas = [
     nome: "Gyoza de Porco",
     tipo: "salgado",
     cultura: "japonesa",
-    imagem: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/4yA8Z9l8X_4",
     ingredientes: ["Discos de massa para Gyoza", "300g de carne suína moída", "2 folhas de acelga picadas", "Gengibre e alho ralados", "Shoyu e óleo de gergelim"],
     instrucoes: [
@@ -173,7 +173,7 @@ const receitas = [
     nome: "Tacos de Carne Asada",
     tipo: "salgado",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/8Q_9h6VKm9c",
     ingredientes: ["500g de carne bovina", "Tortilhas de milho", "1 cebola roxa", "Coentro fresco", "Suco de limão", "Sal e pimenta"],
     instrucoes: [
@@ -189,7 +189,7 @@ const receitas = [
     nome: "Churros com Doce de Leite",
     tipo: "doce",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1624371414361-e670ef4889d6?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1624371414361-e670ef4889d6?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/E-1y7qE9p8k",
     ingredientes: ["250ml de água", "2 colheres de manteiga", "150g de farinha de trigo", "Açúcar e canela", "Doce de leite"],
     instrucoes: [
@@ -205,7 +205,7 @@ const receitas = [
     nome: "Guacamole com Totopos",
     tipo: "salgado",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/5_9QO4jM_5A",
     ingredientes: ["2 abacates maduros", "1 tomate picado", "1/2 cebola roxa", "Suco de 1 limão", "Coentro e sal", "Totopos/Chips de milho"],
     instrucoes: [
@@ -220,7 +220,7 @@ const receitas = [
     nome: "Tres Leches Cake",
     tipo: "doce",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/A8g2_A9o3Wk",
     ingredientes: ["1 pão de ló preparado", "1 lata de leite condensado", "1 lata de creme de leite", "200ml de leite integral", "Chantilly e canela"],
     instrucoes: [
@@ -236,7 +236,7 @@ const receitas = [
     nome: "Enchiladas de Frango",
     tipo: "salgado",
     cultura: "mexicana",
-    imagem: "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/xS6KjE6Dk_g",
     ingredientes: ["8 tortilhas de milho", "400g de frango desfiado", "300g de molho de tomate temperado", "200g de queijo ralado", "Creme azedo"],
     instrucoes: [
@@ -254,7 +254,7 @@ const receitas = [
     nome: "Brigadeiro Gourmet",
     tipo: "doce",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/4yA8Z9l8X_4",
     ingredientes: ["1 lata de leite condensado", "200g de creme de leite", "100g de chocolate em barra", "1 colher de manteiga", "Granulado"],
     instrucoes: [
@@ -269,7 +269,7 @@ const receitas = [
     nome: "Feijoada Completa",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/J7XwB2YnF9A",
     ingredientes: ["500g de feijão preto", "300g de carne seca", "2 linguiças calabresas", "150g de bacon", "Alho, cebola e louro"],
     instrucoes: [
@@ -284,7 +284,7 @@ const receitas = [
     nome: "Pudim de Leite Condensado",
     tipo: "doce",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/Nn4x7T1E0_M",
     ingredientes: ["1 lata de leite condensado", "1 lata de leite", "3 ovos", "1 xícara de açúcar para calda"],
     instrucoes: [
@@ -299,7 +299,7 @@ const receitas = [
     nome: "Moqueca Baiana",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/e_p3Rk8aO_Q",
     ingredientes: ["800g de postas de peixe", "200ml de leite de coco", "3 colheres de azeite de dendê", "Pimentões e cebola em rodelas", "Coentro"],
     instrucoes: [
@@ -314,7 +314,7 @@ const receitas = [
     nome: "Coxinha de Frango",
     tipo: "salgado",
     cultura: "brasileira",
-    imagem: "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?auto=format&fit=crop&w=600&q=80",
+    imagem: "https://images.unsplash.com/photo-1569058242567-93de6f36f8e6?auto=format&fit=crop&w=800&q=80",
     videoUrl: "https://www.youtube.com/embed/K45p4mY9gU0",
     ingredientes: ["500ml de caldo de frango", "300g de farinha de trigo", "300g de frango temperado", "Requeijão firme", "Farinha de rosca"],
     instrucoes: [
@@ -325,83 +325,3 @@ const receitas = [
     ]
   }
 ];
-
-const recipeGrid = document.getElementById('recipeGrid');
-const selectTipo = document.getElementById('tipo');
-const selectCultura = document.getElementById('cultura');
-const modal = document.getElementById('recipeModal');
-const closeBtn = document.getElementById('closeBtn');
-
-function renderizarReceitas() {
-  const tipoFiltro = selectTipo.value;
-  const culturaFiltro = selectCultura.value;
-
-  recipeGrid.innerHTML = '';
-
-  const receitasFiltradas = receitas.filter(receita => {
-    const atendeTipo = tipoFiltro === 'todos' || receita.tipo === tipoFiltro;
-    const atendeCultura = culturaFiltro === 'todas' || receita.cultura === culturaFiltro;
-    return atendeTipo && atendeCultura;
-  });
-
-  receitasFiltradas.forEach(receita => {
-    const card = document.createElement('div');
-    card.className = 'recipe-card';
-    card.onclick = () => abrirModal(receita);
-
-    const classeFonte = `cultura-${receita.cultura}`;
-
-    card.innerHTML = `
-      <div class="card-img-wrapper">
-        <img src="${receita.imagem}" alt="${receita.nome}">
-      </div>
-      <div class="card-info">
-        <h3 class="${classeFonte}">${receita.nome}</h3>
-        <div>
-          <span class="tag">${receita.tipo}</span>
-          <span class="tag">${receita.cultura}</span>
-        </div>
-      </div>
-    `;
-
-    recipeGrid.appendChild(card);
-  });
-}
-
-function abrirModal(receita) {
-  const modalTitle = document.getElementById('modalTitle');
-  modalTitle.innerText = receita.nome;
-  modalTitle.className = `cultura-${receita.cultura}`;
-
-  document.getElementById('modalTags').innerHTML = `
-    <span class="tag">${receita.tipo}</span>
-    <span class="tag">${receita.cultura}</span>
-  `;
-  document.getElementById('modalVideo').src = receita.videoUrl;
-
-  const listIngredientes = document.getElementById('modalIngredients');
-  listIngredientes.innerHTML = receita.ingredientes.map(ing => `<li>${ing}</li>`).join('');
-
-  const listInstrucoes = document.getElementById('modalInstructions');
-  listInstrucoes.innerHTML = receita.instrucoes.map(inst => `<li>${inst}</li>`).join('');
-
-  modal.style.display = 'flex';
-}
-
-function fecharModal() {
-  modal.style.display = 'none';
-  document.getElementById('modalVideo').src = '';
-}
-
-closeBtn.onclick = fecharModal;
-
-window.onclick = (event) => {
-  if (event.target === modal) {
-    fecharModal();
-  }
-};
-
-selectTipo.addEventListener('change', renderizarReceitas);
-selectCultura.addEventListener('change', renderizarReceitas);
-
-renderizarReceitas();
