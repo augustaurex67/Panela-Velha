@@ -89,9 +89,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
+  align-items: start; /* Impede que a alteração de altura afete a linha inteira */
 }
 
-/* Card: Imagem oculta até o HOVER */
+/* Card: isolado no hover para elevar apenas o item selecionado */
 .recipe-card {
   background: var(--card-bg);
   border-radius: 20px;
@@ -102,6 +103,7 @@ body {
   border-top: 5px solid var(--primary);
   display: flex;
   flex-direction: column;
+  will-change: transform;
 }
 
 .recipe-card:hover {
@@ -133,7 +135,6 @@ body {
   text-align: center;
 }
 
-/* Fontes Temáticas por Cultura */
 .cultura-italiana {
   font-family: 'Playfair Display', serif !important;
   font-style: italic;
