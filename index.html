@@ -22,7 +22,6 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 16px;
-            display: flex;
         }
         article{
             display: flex;
@@ -56,7 +55,7 @@
             <article>
                 <img src="imgs/Img_blog.jpg" alt="Ícone minimalista de culinária na cor laranja mostrando uma tigela com um batedor de arame e uma espátula cruzados, sobre fundo branco.">
                 <div>
-                    <h2>O fogo está aceso: sejam bem-vindos ao Panela-Velha!</h2>
+                    <h2>Primeria receita compartilhada!</h2>
                     <p class="Artigo-autor">Por: Augusto Polo</p>
                     <p>Bem-vindo ao meu blog de culinária caseira, aqui irei compartilhar algumas receitas antigas e gostosas</p>
                     <button>💓 <span>0</span></button>
@@ -68,24 +67,21 @@
   <script>
     const botoes = document.querySelectorAll("button");
 
-        botoes.forEach(function (botao) {
-let curtiu = false;
-
-botao.addEventListener("click", botaoClicado);
-
-function botaoClicado() {
-console.log("fui clicado");
-let texto = botao.querySelector("span");
-
-if (curtiu === false) {
-texto.textContent++;
-curtiu = true;
-} else {
-texto.textContent--;
-curtiu = false;
-        
-}
-}
-})
+    botoes.forEach(function (botao) {
+        let curtiu = false;
+        botao.addEventListener("click",botaoClicado);
+        function botaoClicado() {
+            console.log("fui clicado");
+            let texto = botao.querySelector
+            ("span");
+            if (curtiu === false){
+                texto.textContent++;
+                curtiu = true;
+            } else{
+                texto.textContent--;
+                curtiu = false;
+            }
+        }
+    })
   </script>
 </html>
