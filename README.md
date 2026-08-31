@@ -1,2 +1,2 @@
 # Panela-Velha
-Bem-vindo ao Panela-Velha, seu passaporte para uma viagem gastronômica sem sair de casa! Aqui, a culinária é uma ponte entre culturas: compartilhamos receitas autênticas de vários cantos do mundo, histórias por trás dos pratos e o passo a passo para você replicar sabores internacionais na sua própria cozinha. Prepare as malas (e o apetite) e venha explorar o mundo através do paladar!
+Entre e puxe uma cadeira, você está no Panela-Velha! Criamos este espaço para abrir o nosso caderno de receitas e compartilhar aquela culinária afetiva que atravessa gerações e resiste ao tempo. Do almoço farto de domingo ao bolo quentinho para o café da tarde, nossas panelas preparam memórias. Se você busca o sabor autêntico da comida de vó, sinta-se em casa!
