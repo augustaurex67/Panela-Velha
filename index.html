@@ -45,17 +45,22 @@
                 <p class="Artigo-autor">Por: Augusto Polo</p>
                 <p>Bem-vindo ao meu blog de culinária caseira, aqui irei compartilhar algumas receitas antigas e gostosas</p>
                 <button>💓 <span>0</span></button>
+                <button>👍 <span>0</span></button>
             </div>
         </main>
   </body>
   <script>
-    const botao = document.querySelector("button");
-    botao.addEventListener("click", botaoClicado);
+    const botoes = document.querySelectorAll("button");
 
-    function botaoClicado(){
-        console.log
-        let texto = botao.querySelector("span");
-        texto.textContent++;
-    }
+    botoes.forEach( function(botao){
+
+        botao.addEventListener("click", botaoClicado);
+        
+        function botaoClicado(){
+            console.log
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    })
   </script>
 </html>
